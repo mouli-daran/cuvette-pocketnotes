@@ -1,0 +1,61 @@
+.desktop_sidebar {
+  width: 24vw;
+  height: 100vh;
+}
+
+.desktop_title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 1rem;
+  text-align: center;
+}
+
+.desktop_notes_btn {
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.desktop_notes_btn > button {
+  width: 80%;
+  height: 8vh;
+  width: 5vw;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background-color: blue;
+  position: fixed;
+  bottom: 10%;
+  left: 15rem;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#add {
+  font-size: 3rem;
+}
+
+.desktop_notes_title {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 79vh;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}

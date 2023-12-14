@@ -1,0 +1,38 @@
+.mobile_notes_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 5vh;
+    height: auto;
+    width: 95vw;
+    margin: 1vh 0 0 1vw;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background: lightblue;
+    font-size: 2rem;
+    word-break: break-all;
+}
+
+.mobile_notes_details{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-height: 5vh;
+}
+
+.mobile_datetime{
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 2vh;
+}
+
+.mobile_notesarea{
+    min-height: 4vh;
+    height: auto;
+    width: 80vw;
+    text-align: left;
+    margin: 0 0 0 1vw;
+    padding: 2rem;
+}

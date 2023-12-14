@@ -1,0 +1,100 @@
+.mobile_popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 90vw;
+  height: 35vh;
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  z-index: 9999;
+}
+
+.mobile_popup_title {
+  text-align: left;
+  height: 5vh;
+  width: 90vw;
+  font-size: 3.2vh;
+  font-weight: 700;
+  margin-left: 5vw;
+}
+
+.mobile_popup_input {
+  height: 8vh;
+  width: 100%;
+  font-size: 4vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+  align-items: center;
+  margin: 1vh 1vh 1vh 1vh;
+  font-weight: bold;
+}
+
+.mobile_popup_input > input {
+    width: 60vw;
+    height: 3vh;
+    border: 2px solid grey;
+    border-radius: 6vh;
+    padding: 0.5rem;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.mobile_popup_close {
+  height: 5vh;
+  width: 90vw;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1vh 1vh 1vh 1vh;
+}
+
+.mobile_popup_close > button {
+  margin-top: 1rem;
+  height: 6vh;
+  width: 25vw;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 4vh;
+  background-color: black;
+}
+
+
+.highlight{
+    border: 2px solid black;
+    border-radius: 6vh;
+}
+
+
+.mobile_color_options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile_color_options h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.mobile_color_option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s ease-in-out;
+ 
+}
+
+.mobile_color_option.selected {
+  border: 2px solid #333; /* Add a border to indicate selection */
+}
